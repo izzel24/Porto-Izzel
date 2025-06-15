@@ -2,7 +2,7 @@ import React from 'react'
 import { Link, Outlet } from 'react-router-dom'
 import oldpaper from '../assets/old-paper.jpg'
 import { FaLongArrowAltLeft } from 'react-icons/fa'
-import Footer from '../components/footer'
+import Footer from '../components/Footers'
 
 export default function ProjectLayout() {
   return (

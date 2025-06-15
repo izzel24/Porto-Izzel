@@ -7,7 +7,7 @@ import barberians from "../assets/barberians.png";
 import ptics from "../assets/ptics.png";
 import fitnesstracker from "../assets/FitnessTracker.png";
 import { Link } from "react-router-dom";
-import Footer from "../components/footer";
+import Footer from "../components/Footers";
 
 export default function Landing() {
   return (

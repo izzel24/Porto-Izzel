@@ -26,12 +26,13 @@ export default function DPM() {
           {images.map((img, index) => (
             <PhotoView key={index} src={img}>
               <div
-                className="sm:h-[250px] h-[200px] w-[300px] sm:w-[350px] bg-cover bg-center cursor-pointer rounded-md shadow-md hover:scale-105 transition"
+                className="sm:h-[250px] h-[200px] w-[200px] sm:w-[350px] bg-cover bg-center cursor-pointer rounded-md shadow-md hover:scale-105 transition"
                 style={{ backgroundImage: `url(${img})` }}
               ></div>
             </PhotoView>
           ))}
-          <div className='w-full flex justify-end col-span-3'><span className='flex items-center gap-1'><CiGlobe size={20} /><a href="" target='_blank'><b>-</b></a> </span></div>
+          <div className='w-full flex justify-end col-span-1 md:col-span-2 lg:col-span-3'>
+<span className='flex items-center gap-1'><CiGlobe size={20} /><a href="" target='_blank'><b>-</b></a> </span></div>
         </div>
       </PhotoProvider>
     </div>

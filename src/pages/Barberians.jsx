@@ -31,7 +31,7 @@ export default function Barberians() {
             </PhotoView>
           ))}
 
-          <div className='w-full flex justify-end col-span-3'><span className='flex items-center gap-1 font-quicksand'><CiGlobe size={20} /><a href="" target='_blank'><b>-</b></a> </span></div>
+          <div className='w-full flex justify-end col-span-1 md:col-span-2 lg:col-span-3'><span className='flex items-center gap-1 font-quicksand'><CiGlobe size={20} /><a href="" target='_blank'><b>-</b></a> </span></div>
         </div>
       </PhotoProvider>
       

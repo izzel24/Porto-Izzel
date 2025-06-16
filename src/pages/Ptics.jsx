@@ -16,8 +16,8 @@ export default function Ptics() {
   return (
  <>
          <div className="min-h-screen flex flex-col justify-center items-center gap-10">
-          <h1 className="font-boogaloo text-6xl text-[rgb(20,19,17)] opacity-[38%]">
-            FITNESS TRACKER
+          <h1 className="font-boogaloo sm:text-6xl text-5xl text-[rgb(20,19,17)] opacity-[38%]">
+            PTICS
           </h1>
     
           <PhotoProvider>

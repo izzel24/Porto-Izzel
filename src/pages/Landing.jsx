@@ -9,10 +9,17 @@ import fitnesstracker from "../assets/FitnessTracker.png";
 import mtix from "../assets/mtix.png"
 import { Link } from "react-router-dom";
 import Footer from "../components/Footers";
+import { Helmet } from "react-helmet";
+
+ 
 
 export default function Landing() {
+  const ABOUT_ME = "Halo! Nama saya Henry Frizzel Johanis, saya biasanya dipanggil Izzel. Saya seorang freelance front-end developer yang sudah aktif belajar dan mengerjakan proyek di dunia web development selama kurang lebih satu tahun.";
   return (
     <>
+    <Helmet>
+      <meta name="description" content={ABOUT_ME} />
+    </Helmet>
       <div className="h-[100dvh] relative overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center opacity-75"
@@ -89,10 +96,7 @@ export default function Landing() {
             </h1>
             <div className="flex flex-col gap-2">
               <p className="font-quicksand lg:text-xl select-none text-sm max-w-[900px]">
-                Halo! Nama saya Henry Frizzel Johanis, saya biasanya dipanggil
-                Izzel. Saya seorang freelance front-end developer yang sudah
-                aktif belajar dan mengerjakan proyek di dunia web development
-                selama kurang lebih satu tahun.
+                {ABOUT_ME}
               </p>
               <p className="font-quicksand lg:text-xl select-none text-sm max-w-[900px]">
                 Sehari-hari, saya biasa menggunakan React.js sebagai library

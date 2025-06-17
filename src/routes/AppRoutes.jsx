@@ -8,6 +8,7 @@ import Barberians from '../pages/Barberians'
 import FitnessTracker from '../pages/FitnessTracker'
 import Ptics from '../pages/Ptics'
 import ScrollToTop from '../components/ScrollToTop'
+import Mtix from '../pages/Mtix'
 
 export default function AppRoutes() {
   return (
@@ -21,6 +22,7 @@ export default function AppRoutes() {
             <Route path='barberians' element={<Barberians />} />
             <Route path='fitness-tracker' element={<FitnessTracker />}/>
             <Route path='ptics' element={<Ptics />} />
+            <Route path='mtix' element={<Mtix />} />
         </Route>
         
     </Routes>

@@ -6,6 +6,7 @@ import dpm from "../assets/dpm.png";
 import barberians from "../assets/barberians.png";
 import ptics from "../assets/ptics.png";
 import fitnesstracker from "../assets/FitnessTracker.png";
+import mtix from "../assets/mtix.png"
 import { Link } from "react-router-dom";
 import Footer from "../components/Footers";
 
@@ -153,7 +154,7 @@ export default function Landing() {
                   style={{ backgroundImage: `url(${barberians})` }}
                 />
                 <p className="m-0 p-0 md:text-2xl text-lg font-boogaloo">
-                  BARBERIANS-WEBSITE
+                  BARBERIANS - WEBSITE
                 </p>
               </Link>
               <Link
@@ -165,7 +166,7 @@ export default function Landing() {
                   style={{ backgroundImage: `url(${ptics})` }}
                 ></div>
                 <p className="m-0 p-0 md:text-2xl text-lg font-boogaloo">
-                  PTICS-WEBSITE
+                  PTICS - WEBSITE
                 </p>
               </Link>
             </div>
@@ -180,6 +181,18 @@ export default function Landing() {
                 ></div>
                 <p className="m-0 p-0 md:text-2xl text-lg font-boogaloo">
                   FITNESS TRACKER - UI/UX DESIGN
+                </p>
+              </Link>
+              <Link
+                to={"/project/mtix"}
+                className="bg-[#D9D9D9] lg:w-[400px] md:w-[325px] md:h-[300px] w-[250px] h-[300px] card flex flex-col justify-center items-center"
+              >
+                <div
+                  className="lg:w-[350px] md:w-[300px] w-[200px]  h-[230px] bg-white card-content bg-cover bg-no-repeat bg-center"
+                  style={{ backgroundImage: `url(${mtix})` }}
+                ></div>
+                <p className="m-0 p-0 md:text-2xl text-lg font-boogaloo">
+                  M TIX - UI/UX CONCEPT REDESIGN
                 </p>
               </Link>
             </div>

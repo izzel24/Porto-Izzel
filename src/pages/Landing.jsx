@@ -128,7 +128,7 @@ export default function Landing() {
                   style={{ backgroundImage: `url(${dpm})` }}
                 />
                 <p className="m-0 p-0 md:text-2xl text-lg font-boogaloo">
-                  DPM FIA UB-WEBSITE
+                  DPM FIA UB - WEBSITE
                 </p>
               </Link>
               <Link
@@ -140,7 +140,7 @@ export default function Landing() {
                   style={{ backgroundImage: `url(${bem})` }}
                 />
                 <p className="m-0 p-0 md:text-2xl text-lg font-boogaloo">
-                  BEM FIA UB-WEBSITE
+                  BEM FIA UB - WEBSITE
                 </p>
               </Link>
             </div>

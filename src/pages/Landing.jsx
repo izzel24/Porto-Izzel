@@ -6,6 +6,7 @@ import dpm from "../assets/dpm.png";
 import barberians from "../assets/barberians.png";
 import ptics from "../assets/ptics.png";
 import fitnesstracker from "../assets/FitnessTracker.png";
+import maraksara from "../assets/maraksara.png"
 import mtix from "../assets/mtix.png"
 import { Link } from "react-router-dom";
 import Footer from "../components/Footers";
@@ -193,6 +194,20 @@ export default function Landing() {
                 ></div>
                 <p className="m-0 p-0 md:text-2xl text-lg font-boogaloo">
                   M TIX - UI/UX CONCEPT REDESIGN
+                </p>
+              </Link>
+            </div>
+            <div className="flex md:flex-row flex-col gap-20 ">
+              <Link
+                to={"/project/maraksara"}
+                className="bg-[#D9D9D9] lg:w-[400px] md:w-[325px] md:h-[300px] w-[250px] h-[300px] card flex flex-col justify-center items-center"
+              >
+                <div
+                  className="lg:w-[350px] md:w-[300px] w-[200px]  h-[230px] bg-white card-content bg-cover bg-no-repeat bg-center"
+                  style={{ backgroundImage: `url(${maraksara})` }}
+                ></div>
+                <p className="m-0 p-0 md:text-2xl text-lg font-boogaloo">
+                  MARAKSARA.ID - WEBSITE
                 </p>
               </Link>
             </div>
